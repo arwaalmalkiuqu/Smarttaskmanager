@@ -24,14 +24,4 @@ Q1: How to run this app?
 
 Q2: Where to put the API Key?
 
-Open MainApp.java and paste your key in the .withWeatherApiKey("YOUR_KEY") method inside the main function.  
-
-Q3: Code example of using TaskManager?
-
-"Java" 
-
-// Initialize and add a task reactively
-TaskManager manager = TaskManager.builder().withWeatherApiKey("key").build();
-
-manager.addTask(new Task("ID", "Title", LocalDateTime.now(), true))
-       .subscribe(task -> System.out.println("Saved: " + task.title()));
+Open MainApp.java and paste your key in the .withWeatherApiKey("YOUR_KEY") method inside the main function.
