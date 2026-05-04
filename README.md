@@ -16,3 +16,22 @@ The system is engineered as a Reusable Java API, strictly separating business lo
 1- Facade Pattern: The TaskManager class acts as a single entry point to the system's complex sub-systems.
 2- Builder Pattern: Implemented via DefaultTaskManagerBuilder to provide a clean and flexible way to configure the manager instance (e.g., setting API keys).
 3- Reactive Programming: Built using Project Reactor (Flux & Mono) to handle data streams asynchronously without blocking execution threads
+
+
+Q1: How to run this app?
+1- Ensure JDK 17+ and Maven are installed.  
+2- Run mvn clean install then mvn exec:java -Dexec.mainClass="taskmanager.api.MainApp".  
+
+Q2: Where to put the API Key?
+
+Open MainApp.java and paste your key in the .withWeatherApiKey("YOUR_KEY") method inside the main function.  
+
+Q3: Code example of using TaskManager?
+
+"Java" 
+
+// Initialize and add a task reactively
+TaskManager manager = TaskManager.builder().withWeatherApiKey("key").build();
+
+manager.addTask(new Task("ID", "Title", LocalDateTime.now(), true))
+       .subscribe(task -> System.out.println("Saved: " + task.title()));
