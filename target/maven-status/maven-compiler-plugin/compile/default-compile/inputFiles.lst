@@ -1,0 +1,16 @@
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/InvalidTaskException.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/MainApp.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/SchedulePlanner.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/ScheduleRecommendation.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/Task.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/TaskManager.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/TaskNotFoundException.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/TaskService.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/WeatherAPIException.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/api/WeatherForecast.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/impl/DefaultSchedulePlanner.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/impl/DefaultTaskManager.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/impl/DefaultTaskManagerBuilder.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/impl/DefaultTaskService.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/impl/WeatherService.java
+/Users/arwa/Desktop/Smarttaskmanager/src/main/java/taskmanager/ui/SmartTaskManagerFrame.java
